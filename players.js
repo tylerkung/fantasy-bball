@@ -154,7 +154,6 @@ angular.module('fantasyPlayer', [])
 			$scope.teamTotal[stats[i]] = userTeam.getTotal(stats[i]);
 		}
 	}
-	console.log($scope.teamTotal.FG);
 }])
 
 .controller('WaiverController', ['$scope', '$parse', 'orderByFilter', function($scope, $parse, orderBy){
@@ -208,6 +207,7 @@ angular.module('fantasyPlayer', [])
 .controller('TeamController', ['$scope', function($scope){
 	$scope.stats = stats;
 	$scope.addToTeam = function(player, team){
-		if (team == "waivers") waivers.swap(player, userTeam);	
+		if (team == "waivers") waivers.swap(player, userTeam);
+		$scope.product = orderBy(waivers.team, $scope.orderStat, $scope.reverse);	
 	}
 }]);
