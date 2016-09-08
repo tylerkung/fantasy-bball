@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Basket</title>
+	<meta charset="UTF-8">
+	<!-- JQuery, Angular, Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body ng-app="fantasyPlayer">
+	<div ng-controller="FantasyController">
+	<ul class="nav nav-tabs">
+		<li role="presentation" ng-click="tab = 1" ng-class="{'active': tab == 1}"><a href="#">Waivers</a></li>
+		<li role="presentation" ng-click="tab = 2" ng-class="{'active': tab == 2}"><a href="#">My Team</a></li>
+	</ul>
+
+	<!-- WAIVER SECTION -->
+
+	<div ng-show="tab == 1" ng-controller="WaiverController">
+		<div class="col-lg-1 hidden-sm">
+		</div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+			<div class="team-area side-menu-item">
+				<div ng-repeat="player in myTeam">
+					{{player.NAME}}, {{player.TEAM}} {{player.POSITION}}
+				</div>
+			</div>
+			<div class="side-menu-item">
+				Show:
+				<ul class="list-inline">
+					<li><label><input type="checkbox" ng-model="showPos.PG"> PG</label></li>
+					<li><label><input type="checkbox" ng-model="showPos.SG"> SG</label></li>
+					<li><label><input type="checkbox" ng-model="showPos.SF"> SF</label></li>
+					<li><label><input type="checkbox" ng-model="showPos.PF"> PF</label></li>
+					<li><label><input type="checkbox" ng-model="showPos.C"> C</label></li>
+				</ul>
+				
+			</div>
+		</div>
+
+		<div class="col-lg-8 col-sm-10 col-xs-12 waiver-container">
+			<div class="waiver-list">
+			<table id="waivers" class="table table-striped waivers">
+			<tr>
+				<th colspan="2" class="header">PLAYERS</th>
+				<th class="separator-cell"></th>
+				<th colspan="10" class="rater-header header text-center">PLAYER RATER</th>
+			</tr>
+			<tr>
+				<th ng-click="sortBy('RANK')" class="text-right sort-cell">Rank</th>
+				<th width="180">Player</th>
+				<th class="separator-cell"></th>
+				
+				<th ng-repeat="name in allStats" ng-click="sortBy(name)" ng-class="{{name}}class" class="sort-cell" >{{name}}</th>
+				
+				<th ng-click="sortBy('TOTAL')" class="sort-cell">2016</th>
+				<th>Spec</th>
+			</tr>
+			<tr ng-repeat="player in product" ng-show="player.POSITION == 'PG' && showPos.PG || player.POSITION == 'SG' && showPos.SG || player.POSITION == 'SF' && showPos.SF || player.POSITION == 'PF' && showPos.PF || player.POSITION == 'C' && showPos.C">
+				<td class="text-right">{{player.RANK}}</td>
+				<td class="dropdown">
+					<div class="dropdown-toggle" id="menu1" data-toggle="dropdown">
+						{{player.NAME}}, {{player.TEAM}} {{player.POSITION}}
+					</div>
+					<ul class="dropdown-menu" style="width: 100%" role="menu" aria-labelledby="menu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#" ng-click="addToTeam(player.NAME, 'user')">Draft</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#" ng-click="addToTeam(player.NAME, 'delete')">Remove</a></li>
+					</ul>
+
+				</td>
+				<td></td>
+				<td ng-repeat="name in allStats" ng-class="{
+				'selected' : 	{{name}}class,
+				'very-bad': 	player[name] <= -4,
+				'bad': 			player[name] <= -2.5 && player[name] > -4,  
+				'kinda-bad': 	player[name] <= -1 && player[name] > -2.5, 
+				'kinda-good': 	player[name] < 2.5 && player[name] >= 1, 
+				'good': 		player[name] < 4 && player[name] >= 2.5,
+				'very-good': 	player[name] >= 4}">
+				{{player[name]}}</td>
+				<td>{{player.TOTAL}}</td>
+				<td>{{(player.SPEC).toFixed(2)}}</td>
+			</tr>
+			</table>
+			</div>
+		</div>
+		<div class="col-lg-1 hidden-sm">
+		</div>
+	</div>
+
+
+
+	<!-- MY TEAM SECTION -->
+
+	<div ng-show="tab == 2" ng-controller="TeamController">
+		<div class="col-lg-1 hidden-sm">
+		</div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+		</div>
+		<div class="col-lg-8 col-sm-10 col-xs-12 ">
+			<table id="waivers" class="table table-striped waivers">
+			<tr>
+				<th colspan="2" class="player-header header">TEAM</th>
+				<th class="separator-cell"></th>
+				<th colspan="10" class="rater-header header text-center">TEAM RATER</th>
+			</tr>
+			<tr>
+				<th class="text-right">Position</th>
+				<th width="180">Player</th>
+				<th class="separator-cell"></th>
+				
+				<th ng-repeat="name in stats">{{name}}</th>
+				
+				<th>2016</th>
+			</tr>
+			<tr ng-repeat="player in myTeam">
+				<td class="text-right">{{player.POSITION}}
+				<td class="dropdown">
+					<div class="dropdown-toggle" id="menu1" data-toggle="dropdown">
+						{{player.NAME}}, {{player.TEAM}}
+					</div>
+					<ul class="dropdown-menu" style="width: 100%" role="menu" aria-labelledby="menu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#" ng-click="addToTeam(player.NAME, 'waivers')">Release</a></li>
+					</ul>
+
+				</td>
+				<td></td>
+				<td ng-repeat="name in stats" ng-class="{
+				'selected' : 	{{name}}class,
+				'very-bad': 	player[name] <= -4,
+				'bad': 			player[name] <= -2.5 && player[name] > -4,  
+				'kinda-bad': 	player[name] <= -1 && player[name] > -2.5, 
+				'kinda-good': 	player[name] < 2.5 && player[name] >= 1, 
+				'good': 		player[name] < 4 && player[name] >= 2.5,
+				'very-good': 	player[name] >= 4}">
+				{{player[name]}}</td>
+				<td>{{player.TOTAL}}</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><strong>Total</strong></td>
+				<td></td>
+				<td ng-repeat="stats in stats"><strong>{{(teamTotal[stats]).toFixed(2)}}</strong></td>
+			</tr>
+			</table>
+		</div>
+		<div class="col-lg-1 hidden-sm">
+		</div>
+	</div>
+	</div>
+</body>
+
+<script src="players.js"></script>
+</html>
