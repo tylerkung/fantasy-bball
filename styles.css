@@ -1,0 +1,112 @@
+body{
+	font: 10px Verdana, sans-serif;
+	color: #212121;
+}
+
+th{
+	background-color: #df8f41;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.waiver-container{
+	height: calc(100vh - 50px);
+}
+
+.waiver-list{
+	height:100%;
+	overflow:scroll;
+}
+
+.sort-cell{
+	cursor: pointer;
+	max-width: 75px;
+}
+	.sort-cell:hover{
+		background-color: #ff9800;
+	}
+
+.separator-cell{
+	background-color: #fff;
+}
+
+.header{
+	background-color: #ba4f00;
+	color: #fff;
+}
+
+.very-good{
+	background-color: #4caf50;
+}
+
+.good{
+	background-color: #81c784;
+}
+
+.kinda-good{
+	background-color: #c8e6c9;
+}
+
+.kinda-bad{
+	background-color: #ffcdd2;
+}
+
+.bad{
+	background-color: #e57373;
+}
+
+.very-bad{
+	background-color: #f44336;
+}
+
+th.selected{
+	background-color: #ef6c00;
+	color: #fff;
+}
+	th.selected:hover{
+		background-color: #f57c00 !important;
+	}
+
+	th.player-header{
+		width: 170px;
+	}
+td.selected{
+	border-left: 1px solid #424242;
+	border-right: 1px solid #424242;
+}
+td, th{
+	max-width: 200px;
+}
+
+.dropdown-toggle{
+	cursor: pointer;
+	height: 100%;
+}
+.dropdown:hover{
+	background-color: #eeeeee;
+}
+
+.dropdown-menu{
+	font-size: inherit;
+	border-radius: 0px 0px 4px 4px;
+}
+	.dropdown-menu > li > a {
+		padding-left: 8px;
+	}
+.nav-tabs{
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.side-menu-item{
+	margin-bottom: 10px;
+}
+
+.team-area{
+	padding: 4px;
+	border: 1px solid #212;
+	height: 200px;
+	width: 100%;
+	overflow-y: auto;
+}
+

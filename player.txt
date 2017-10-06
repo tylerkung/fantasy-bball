@@ -1,0 +1,150 @@
+1	James Harden, Hou SGBreaking Video		-0.81	2.60	3.79	2.20	5.89	2.50	0.47	3.73		20.37
+2	Russell Westbrook, OKC PGBreaking News		-1.77	2.49	2.69	3.23	5.39	2.84	0.23	4.14		19.24
+3	Stephen Curry, GS PGBreaking News		0.47	2.51	4.90	0.66	3.04	3.14	-0.25	2.99		17.46
+4	Karl-Anthony Towns, Min CBreaking News		3.81	1.35	0.92	3.95	0.78	0.51	2.69	3.12		17.12
+5	Giannis Antetokounmpo, Mil SF, PFBreaking News		2.55	-0.06	-0.01	2.41	2.37	2.81	4.33	2.65		17.05
+6	Anthony Davis, Nor PFRecent News		2.18	0.89	-0.17	3.33	0.31	1.67	4.88	3.20		16.29
+7	Kawhi Leonard, SA SF  DTD		1.14	2.81	1.74	1.05	1.07	2.87	1.05	2.77		14.49
+8	Kevin Durant, GS SFBreaking News		2.74	2.15	1.21	1.46	1.37	0.82	2.55	2.08		14.38
+9	Isaiah Thomas*, Cle PG  O		0.26	4.03	3.49	-0.09	2.47	0.94	-0.38	3.40		14.12
+10	John Wall, Wsh PGRecent News		-0.28	0.75	0.71	0.52	5.32	3.60	0.85	2.60		14.06
+11	LeBron James, Cle SF, PF  DTDBreaking News		3.80	-2.53	1.33	2.10	3.95	1.61	0.67	2.90		13.83
+12	Jimmy Butler, Min SG, SFBreaking News		-0.08	2.81	0.74	1.25	2.24	3.17	0.26	2.62		13.02
+13	Rudy Gobert, Utah CRecent News		4.67	-2.86	-0.88	4.09	-0.14	0.29	6.48	1.23		12.89
+14	Paul George, OKC SFRecent News		0.18	2.58	2.60	1.36	1.01	2.44	0.09	2.53		12.79
+15	DeMarcus Cousins, Nor CBreaking Video		-0.24	-0.01	1.46	2.88	1.61	1.86	2.35	2.88		12.78
+16	Damian Lillard, Por PGBreaking News and Video		-0.59	3.26	2.94	0.73	2.41	0.88	-0.15	3.05		12.53
+17	CJ McCollum, Por PG, SGBreaking News		1.01	2.39	2.42	0.34	1.26	1.00	0.61	2.66		11.68
+18	Nikola Jokic, Den PF, C  DTDRecent News		3.60	0.74	-0.08	2.50	1.81	0.66	1.05	1.40		11.68
+19	Kyrie Irving, Bos PGRecent News		0.67	2.48	2.28	0.04	2.25	1.34	-0.01	2.62		11.66
+20	Myles Turner, Ind PF, CBreaking News and Video		1.62	0.64	-0.17	1.85	-0.07	1.03	5.08	1.30		11.28
+21	Kemba Walker, Cha PGBreaking News		-0.60	1.49	3.40	0.43	2.37	1.40	-0.08	2.65		11.06
+22	Draymond Green, GS SF, PFRecent News		-0.92	-0.83	0.56	1.90	3.11	3.51	2.79	0.48		10.60
+23	Chris Paul, Hou PGBreaking News		0.53	1.87	1.33	0.41	3.33	2.44	-0.56	1.16		10.51
+24	Jeff Teague, Min PGRecent News		-0.47	2.10	0.72	0.55	3.89	1.89	0.26	1.47		10.42
+25	Marc Gasol, Mem CBreaking News		0.05	1.23	0.97	1.21	1.65	0.85	2.55	1.86		10.38
+26	Hassan Whiteside, Mia PF, CBreaking News and Video		3.29	-2.84	-0.88	4.36	-0.44	0.54	4.71	1.58		10.32
+27	Bradley Beal, Wsh SG		1.02	1.01	3.10	0.09	1.13	1.34	-0.11	2.54		10.11
+28	Klay Thompson, GS SGRecent News		0.46	1.10	3.90	0.32	0.33	0.82	0.54	2.47		9.92
+29	Mike Conley, Mem PGBreaking News		0.07	1.75	2.17	0.10	2.36	1.61	-0.18	1.80		9.68
+30	Brook Lopez, LAL C  DTDRecent News		0.62	0.77	1.51	0.91	0.45	-0.04	3.41	2.05		9.68
+31	Otto Porter Jr., Wsh SF		1.65	0.48	1.76	1.47	0.04	2.35	0.61	1.10		9.45
+32	Kyle Lowry, Tor PGBreaking News		0.21	0.95	2.56	0.32	2.24	1.52	-0.18	1.65		9.28
+33	Gordon Hayward, Bos SG, SFRecent News		0.53	1.62	1.78	0.86	1.01	1.03	-0.15	2.18		8.87
+34	Serge Ibaka, Tor PFBreaking News		0.74	0.71	1.33	1.59	-0.30	0.05	3.41	1.30		8.82
+35	Ricky Rubio, Utah PGRecent News		-1.32	1.99	0.19	0.42	4.21	2.71	-0.49	0.61		8.33
+36	Eric Bledsoe, Pho PG		-0.79	1.77	0.97	0.49	2.25	1.58	0.23	1.74		8.25
+37	DeMar DeRozan, Tor SG  DTDBreaking News		0.44	2.06	-0.29	0.82	1.30	1.18	-0.38	3.04		8.17
+38	Goran Dragic, Mia PGBreaking News		0.66	0.38	1.21	0.29	2.29	1.52	-0.38	1.94		7.90
+39	Gorgui Dieng, Min C, PFBreaking News		1.08	0.46	-0.59	2.14	0.32	1.49	2.42	0.57		7.87
+40	Nicolas Batum*, Cha SF, SG  OBreaking News		-1.79	1.39	1.53	1.30	2.53	1.43	0.16	1.28		7.84
+41	DeAndre Jordan, LAC CBreaking News		5.50	-6.47	-0.88	4.49	-0.15	0.36	3.75	1.00		7.61
+42	Al Horford, Bos CRecent News		0.45	0.25	0.65	1.22	1.65	0.39	2.11	0.85		7.57
+43	Dennis Schroder, Atl PGBreaking News		-0.23	1.27	0.90	0.13	2.85	1.06	-0.28	1.79		7.50
+44	Kristaps Porzingis, NY PFRecent News		-0.25	0.21	1.12	1.27	-0.14	0.23	3.58	1.35		7.37
+45	Lou Williams, LAC PG, SG		-0.95	2.53	2.03	-0.10	0.92	1.24	-0.15	1.81		7.33
+46	Carmelo Anthony, OKC SF, PFRecent News		-1.02	1.23	1.81	1.08	0.72	0.66	0.30	2.30		7.08
+47	Paul Millsap, Den PF  DTDRecent News		-0.49	-0.09	0.46	1.56	1.01	1.55	1.29	1.45		6.75
+48	Tobias Harris, Det PF, SFBreaking News		0.83	0.96	1.06	0.98	0.20	0.60	0.50	1.60		6.73
+49	Jrue Holiday, Nor PG, SGRecent News		-0.11	-0.69	0.90	0.21	2.77	1.86	0.67	1.00		6.61
+50	Jonas Valanciunas, Tor CBreaking News		2.52	0.53	-0.86	2.70	-0.44	-0.07	1.32	0.86		6.56
+51	James Johnson, Mia SF, PFBreaking News		0.58	-0.87	0.67	0.77	1.19	1.12	2.11	0.89		6.48
+52	Trevor Ariza, Hou SFBreaking Video		-1.37	-0.29	2.53	1.19	0.44	3.30	-0.15	0.81		6.46
+53	Robert Covington, Phi PF, SF  DTDBreaking News		-1.53	0.56	1.56	1.08	-0.10	2.68	1.53	0.67		6.45
+54	LaMarcus Aldridge, SA PFRecent News		0.68	0.64	-0.47	1.51	0.17	0.20	2.18	1.44		6.36
+55	Nikola Vucevic, Orl CBreaking News		0.39	-1.08	-0.47	2.80	0.69	1.12	1.70	1.14		6.29
+56	Kevin Love, Cle PFBreaking News		-0.92	1.70	1.71	2.23	0.00	0.42	-0.11	1.24		6.27
+57	Devin Booker, Pho SGRecent News		-1.48	1.38	1.74	0.13	1.13	1.00	-0.11	2.43		6.23
+58	Elfrid Payton, Orl PGBreaking News		0.45	-1.05	-0.17	0.83	3.08	1.49	0.54	1.04		6.20
+59	Marcin Gortat, Wsh C		2.97	-1.29	-0.88	3.16	0.04	0.02	1.25	0.70		5.97
+60	Andrew Wiggins, Min SG		-0.26	-0.31	0.96	0.53	0.55	1.31	0.20	2.86		5.82
+61	Jae Crowder, Cle SFBreaking News		0.14	0.53	1.92	0.97	0.29	1.03	-0.04	0.94		5.77
+62	Harrison Barnes, Dal SF  DTDBreaking News		0.44	1.48	0.51	0.86	0.01	0.78	-0.32	2.01		5.77
+63	Markieff Morris*, Wsh PF  ORecent News		-0.02	0.87	0.39	1.36	0.08	1.31	0.64	1.07		5.70
+64	Greg Monroe, Mil PF, CRecent News		1.99	-0.45	-0.88	1.56	0.53	1.61	0.47	0.84		5.67
+65	Blake Griffin, LAC PFBreaking News		1.19	-0.26	-0.20	1.38	1.37	0.54	-0.04	1.59		5.57
+66	Danilo Gallinari, LAC SF, PFBreaking News		-0.28	2.72	1.37	0.52	0.14	0.02	-0.32	1.24		5.41
+67	T.J. McConnell, Phi PG		0.07	0.25	-0.68	0.14	3.11	2.90	-0.49	0.03		5.33
+68	Dwight Howard, Cha CBreaking News		3.96	-5.33	-0.88	3.61	-0.09	0.75	2.31	0.95		5.30
+69	Steven Adams, OKC CBreaking News		2.71	-2.48	-0.88	1.96	-0.22	1.52	1.84	0.75		5.20
+70	Eric Gordon, Hou SGRecent News		-1.76	0.77	3.51	-0.11	0.54	0.26	0.57	1.39		5.17
+71	Marvin Williams, Cha SF, PF		-0.90	1.00	1.33	1.40	-0.07	0.57	0.98	0.63		4.95
+72	Michael Kidd-Gilchrist, Cha SF		0.46	0.14	-0.86	1.73	-0.01	1.27	1.80	0.42		4.94
+73	JJ Redick, Phi SG		-0.38	1.51	2.70	-0.26	-0.04	0.45	-0.38	1.30		4.90
+74	Mason Plumlee, Den PF, CBreaking News		1.80	-3.33	-0.88	1.93	1.25	0.91	2.31	0.62		4.62
+75	Marcus Smart, Bos PGRecent News		-2.62	0.61	0.80	0.42	1.85	2.62	0.33	0.61		4.61
+76	Patrick Beverley, LAC PG		-0.76	-0.02	1.08	0.86	1.23	1.83	0.03	0.20		4.44
+77	Seth Curry, Dal SGBreaking News		0.60	0.54	1.56	-0.22	0.54	1.21	-0.59	0.74		4.38
+78	Thaddeus Young, Ind SF, PF		1.73	-1.49	-0.08	1.14	0.05	2.25	0.20	0.56		4.36
+79	Julius Randle, LAL PFRecent News		0.82	-0.80	-0.58	2.09	1.10	0.29	0.44	0.89		4.25
+80	Tyler Johnson, Mia SG, PGBreaking News		-0.69	-0.06	0.78	0.36	0.87	1.37	0.67	0.95		4.24
+81	Jordan Clarkson, LAL PG, SGBreaking News		-0.42	0.28	1.21	0.12	0.72	1.52	-0.56	1.36		4.24
+82	Courtney Lee, NY SGRecent News		-0.03	0.65	1.05	0.18	0.47	1.27	-0.01	0.61		4.19
+83	Malcolm Brogdon, Mil SG, PGRecent News		-0.01	0.79	0.51	-0.05	1.50	1.37	-0.42	0.47		4.15
+84	Andre Iguodala, GS SF		1.13	-0.46	0.26	0.41	1.08	1.12	0.50	0.07		4.12
+85	Andre Drummond, Det C  DTDBreaking News		2.28	-7.59	-0.84	4.50	-0.19	2.59	2.21	1.16		4.11
+86	Robin Lopez, Chi CBreaking News		0.98	-0.36	-0.88	1.50	-0.27	-0.65	3.17	0.61		4.10
+87	Darren Collison, Ind PG		0.49	0.97	0.42	-0.35	1.46	0.85	-0.52	0.74		4.05
+88	Ersan Ilyasova, Atl PF		-0.79	0.08	1.65	1.30	0.18	0.57	-0.04	1.09		4.04
+89	Enes Kanter, NY CRecent News		2.32	0.24	-0.79	1.31	-0.36	-0.23	0.47	1.01		3.97
+90	Maurice Harkless, Por SFBreaking News and Video		1.05	-1.26	0.33	0.60	-0.21	1.40	1.56	0.48		3.95
+91	Derrick Rose, Cle PGBreaking News		0.45	1.55	-0.65	0.12	1.25	0.14	-0.25	1.26		3.87
+92	Kyle O'Quinn, NY PFRecent News		1.01	-0.00	-0.84	1.09	0.01	-0.10	2.72	-0.09		3.79
+93	Wilson Chandler, Den SF  DTDRecent News		0.12	-0.55	1.08	1.20	0.19	0.36	0.20	1.18		3.77
+94	Bojan Bogdanovic, Ind SG		-0.36	1.79	1.69	0.27	-0.03	-0.16	-0.59	1.18		3.77
+95	Dwyane Wade, Cle SGBreaking News		-0.77	0.36	-0.08	0.24	0.84	1.43	0.57	1.14		3.73
+96	Clint Capela, Hou CBreaking News and Video		3.90	-2.74	-0.88	1.53	-0.39	-0.16	1.87	0.57		3.69
+97	Victor Oladipo, Ind SGBreaking Video		-0.48	-0.19	1.38	0.35	0.45	1.18	-0.11	1.08		3.66
+98	Pau Gasol, SA PF, CRecent News		0.99	-0.77	0.12	1.40	0.26	-0.47	1.56	0.52		3.61
+99	Trevor Booker, Bkn PFRecent News		1.29	-0.74	-0.43	1.76	0.17	1.09	0.13	0.35		3.60
+100	Kentavious Caldwell-Pope, LAL SG  SSPDRecent News		-1.86	0.71	1.85	0.13	0.58	1.55	-0.42	1.04		3.58
+101	Terrence Ross, Orl SG, SFRecent News		-0.54	0.32	1.65	-0.08	-0.21	1.46	0.30	0.65		3.56
+102	D'Angelo Russell, Bkn PG, SGBreaking News and Video		-1.57	0.12	1.53	-0.01	1.39	1.46	-0.28	0.91		3.55
+103	Tim Hardaway Jr., NY SG, SFRecent News		-0.07	-0.07	1.78	0.01	0.49	0.48	-0.32	1.24		3.54
+104	JaMychal Green, Mem PFBreaking News		0.83	0.33	0.10	1.62	-0.24	0.23	0.33	0.31		3.51
+105	Wesley Matthews, Dal SG  DTDBreaking News		-1.89	0.50	2.22	0.18	0.70	1.15	-0.32	0.92		3.47
+106	TJ Warren, Pho SFRecent News		1.08	0.01	-0.42	0.59	-0.30	1.12	0.50	0.84		3.43
+107	Dario Saric, Phi SF, PF  DTDBreaking News		-1.47	0.14	1.01	1.46	0.49	0.54	0.20	1.03		3.40
+108	Evan Fournier, Orl SGRecent News		-0.59	0.54	1.40	-0.07	0.64	0.82	-0.69	1.29		3.34
+109	Joe Ingles, Utah PF, SFBreaking News		-0.08	-0.18	1.31	0.19	0.81	1.73	-0.56	0.08		3.32
+110	Gary Harris, Den SG  DTDRecent News		1.05	0.04	1.03	-0.22	0.36	0.97	-0.56	0.64		3.30
+111	Allen Crabbe, Bkn SG  DTDBreaking News		0.26	0.63	1.51	0.02	-0.16	0.45	-0.15	0.63		3.18
+112	Aaron Gordon, Orl PF, SFBreaking News		-0.09	-0.71	0.49	0.92	0.26	0.78	0.54	0.98		3.17
+113	Taj Gibson, Min PFBreaking News		1.47	-0.58	-0.83	1.32	-0.32	0.05	1.39	0.63		3.13
+114	Amir Johnson, Phi PF  DTDBreaking News		1.71	-0.70	-0.40	0.72	0.18	0.36	1.29	-0.04		3.12
+115	Ryan Anderson, Hou PF  DTDRecent News		-1.08	0.87	2.76	0.54	-0.35	-0.26	-0.35	0.90		3.03
+116	Rajon Rondo, Nor PGRecent News		-1.03	-0.62	0.01	0.67	2.57	1.83	-0.45	-0.00		2.97
+117	Patty Mills, SA PGRecent News		-0.40	0.30	1.74	-0.41	1.22	0.78	-0.73	0.45		2.95
+118	PJ Tucker, Hou SG, SFBreaking News		-0.81	0.02	0.37	1.25	-0.12	2.35	-0.18	0.00		2.87
+119	Nikola Mirotic, Chi PFBreaking News		-1.02	0.01	1.42	0.81	-0.30	0.42	1.05	0.42		2.81
+120	CJ Miles, Tor SF, SGBreaking News		-0.54	0.85	2.13	0.03	-0.50	0.20	0.03	0.56		2.76
+121	Alex Len, Pho CRecent News		0.70	-0.66	-0.83	1.45	-0.53	-0.04	2.52	0.15		2.76
+122	Cody Zeller, Cha PF, CRecent News		1.94	-1.15	-0.88	0.91	-0.12	0.69	1.15	0.20		2.74
+123	Jabari Parker*, Mil SF, PF  O		0.94	-0.39	0.28	0.46	0.20	0.33	-0.08	1.00		2.73
+124	Avery Bradley, Det SGBreaking News		0.16	-0.26	1.05	0.56	0.05	0.88	-0.45	0.73		2.71
+125	Marcus Morris, Bos PF  DTDBreaking News		-1.32	0.14	1.22	0.72	0.33	0.39	0.03	1.16		2.67
+126	Kelly Olynyk, Mia CBreaking News		1.05	-0.33	0.33	0.70	0.24	0.11	0.16	0.28		2.54
+127	Jameer Nelson, Den PGRecent News		-0.30	-0.26	1.01	-0.15	2.00	0.45	-0.56	0.30		2.49
+128	Marreese Speights, Orl PF		-0.25	0.95	0.96	0.76	-0.37	-0.50	0.57	0.35		2.47
+129	Jamal Crawford, Min SGBreaking News		-1.34	1.09	1.19	-0.47	0.72	0.66	-0.35	0.96		2.46
+130	George Hill, Sac PGRecent News		0.44	0.36	0.80	-0.28	0.66	0.33	-0.45	0.59		2.44
+131	Jon Leuer, Det PFBreaking News		0.53	0.73	-0.01	0.90	-0.03	-0.26	0.06	0.47		2.40
+132	Ish Smith, Det PGBreaking News		-0.48	-0.46	-0.38	0.06	2.25	0.66	0.30	0.45		2.40
+133	Kent Bazemore, Atl SGBreaking News		-1.24	-0.69	0.76	0.04	0.46	1.58	0.95	0.54		2.39
+134	Channing Frye, Cle PF, C		0.01	0.42	1.56	0.34	-0.53	-0.20	0.47	0.28		2.36
+135	Kyle Korver, Cle SG, SF		0.13	0.41	2.01	-0.18	-0.04	-0.16	-0.11	0.28		2.33
+136	Danny Green, SA SG		-1.12	0.17	1.22	0.01	0.06	0.94	1.12	-0.09		2.31
+137	David Lee, SA PF		2.16	-0.49	-0.88	1.10	0.05	-0.26	0.54	0.07		2.30
+138	Larry Nance Jr., LAL PFBreaking News		0.98	-0.19	-0.70	0.74	-0.15	1.31	0.50	-0.19		2.30
+139	Rondae Hollis-Jefferson, Bkn SF, PFBreaking News		-0.48	-0.32	-0.61	1.16	0.29	1.31	0.67	0.28		2.29
+140	Tristan Thompson, Cle PF, CBreaking News		2.39	-3.63	-0.88	2.48	-0.29	-0.01	2.04	0.19		2.29
+141	Tony Snell, Mil SFBreaking News		-0.05	0.16	1.69	0.13	-0.15	0.48	-0.35	0.29		2.20
+142	Ty Lawson, Sac PG		-0.06	0.34	-0.27	-0.21	1.62	1.06	-0.62	0.29		2.14
+143	Dewayne Dedmon, Atl C		1.71	-0.47	-0.88	1.38	-0.53	-0.07	1.25	-0.31		2.08
+144	Zach LaVine*, Chi PG, SG  O		0.05	0.59	1.26	-0.31	0.17	0.05	-0.49	0.72		2.04
+145	Jamal Murray, Den SG, PGBreaking News		-1.39	0.90	1.17	-0.04	0.40	0.36	-0.01	0.56		1.95
+146	Will Barton, Den SG, SFBreaking News		-0.35	-0.23	0.67	0.18	0.67	0.26	0.13	0.57		1.92
+147	Willy Hernangomez, NY CRecent News		1.27	-0.37	-0.81	1.41	-0.15	0.05	0.40	0.10		1.91
+148	Nik Stauskas, Phi SG		-1.42	0.41	1.47	0.02	0.54	0.17	0.26	0.44		1.90
+149	Dirk Nowitzki, Dal PF  DTDBreaking News		-0.51	0.79	0.53	0.66	-0.25	-0.29	0.47	0.47		1.87
+150	Cory Joseph, Ind PG		-0.12	-0.01	-0.02	0.06	1.11	0.82	-0.38	0.41		1.86
