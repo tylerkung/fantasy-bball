@@ -38,7 +38,7 @@
 					<li><label><input type="checkbox" ng-model="showPos.PF"> PF</label></li>
 					<li><label><input type="checkbox" ng-model="showPos.C"> C</label></li>
 				</ul>
-				
+
 			</div>
 		</div>
 
@@ -54,11 +54,11 @@
 				<th ng-click="sortBy('RANK')" class="text-right sort-cell">Rank</th>
 				<th width="180">Player</th>
 				<th class="separator-cell"></th>
-				
+
 				<th ng-repeat="name in allStats" ng-click="sortBy(name)" ng-class="{{name}}class" class="sort-cell" >{{name}}</th>
-				
-				<th ng-click="sortBy('TOTAL')" class="sort-cell">2016</th>
-				<th>Spec</th>
+
+				<th ng-click="sortBy('TOTAL')" class="sort-cell">2017</th>
+				<th>Total</th>
 			</tr>
 			<tr ng-repeat="player in product" ng-show="player.POSITION == 'PG' && showPos.PG || player.POSITION == 'SG' && showPos.SG || player.POSITION == 'SF' && showPos.SF || player.POSITION == 'PF' && showPos.PF || player.POSITION == 'C' && showPos.C">
 				<td class="text-right">{{player.RANK}}</td>
@@ -76,9 +76,9 @@
 				<td ng-repeat="name in allStats" ng-class="{
 				'selected' : 	{{name}}class,
 				'very-bad': 	player[name] <= -4,
-				'bad': 			player[name] <= -2.5 && player[name] > -4,  
-				'kinda-bad': 	player[name] <= -1 && player[name] > -2.5, 
-				'kinda-good': 	player[name] < 2.5 && player[name] >= 1, 
+				'bad': 			player[name] <= -2.5 && player[name] > -4,
+				'kinda-bad': 	player[name] <= -1 && player[name] > -2.5,
+				'kinda-good': 	player[name] < 2.5 && player[name] >= 1,
 				'good': 		player[name] < 4 && player[name] >= 2.5,
 				'very-good': 	player[name] >= 4}">
 				{{player[name]}}</td>
@@ -112,9 +112,9 @@
 				<th class="text-right">Position</th>
 				<th width="180">Player</th>
 				<th class="separator-cell"></th>
-				
+
 				<th ng-repeat="name in stats">{{name}}</th>
-				
+
 				<th>2016</th>
 			</tr>
 			<tr ng-repeat="player in myTeam">
@@ -132,9 +132,9 @@
 				<td ng-repeat="name in stats" ng-class="{
 				'selected' : 	{{name}}class,
 				'very-bad': 	player[name] <= -4,
-				'bad': 			player[name] <= -2.5 && player[name] > -4,  
-				'kinda-bad': 	player[name] <= -1 && player[name] > -2.5, 
-				'kinda-good': 	player[name] < 2.5 && player[name] >= 1, 
+				'bad': 			player[name] <= -2.5 && player[name] > -4,
+				'kinda-bad': 	player[name] <= -1 && player[name] > -2.5,
+				'kinda-good': 	player[name] < 2.5 && player[name] >= 1,
 				'good': 		player[name] < 4 && player[name] >= 2.5,
 				'very-good': 	player[name] >= 4}">
 				{{player[name]}}</td>
